@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Video settings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/CSS/style.css') }}">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Select and create your file</h1>
+      <form method="post" enctype="multipart/form-data" id=form1>
+        <input name="u_id" type="hidden" value={{user_id}}>
+          <div id="firstcolumn">
+        File name:
+        <input type="text" name="filename"><br>
+        Product name:
+        <input type="text" name="productname"><br>
+        Price:
+        <input type="text" name="pricename"><br>
+        Brand:
+        <input type="text" name="brandname"><br>
+      File type:
+        <select name="filetype" >
+          <option value="MOV">.MOV</option>
+          <option value="MPEG4">.MPEG4</option>
+          <option value="AVI">.AVI</option>
+          <option value="MP4">.MP4</option>
+          <option value="WMW">.WMW</option>
+        </select><br>
+      </div>
+      <div id="thirdcolumn">
+
+        Sale:
+        <input type="text" name="salename"><br>
+        Age:
+        <select name="age" >
+            <option value="none">none</option>
+            <option value="young">young</option>
+            <option value="adult">adult</option>
+            <option value="elderly">elderly</option>
+          </select><br>
+        Gender:
+        <select name="gender" >
+            <option value="none">none</option>
+            <option value="female">female</option>
+            <option value="male">male</option>
+          </select><br>
+
+
+        Resolution:
+        <select name="resolution">
+          <option value="HD">HD</option>
+          <option value="FULL_HD">FULL HD</option>>
+        </select><br>
+
+        Fonts:
+        <select name="font">
+          <option value="Hershey Simplex">Hershey Simplex</option>
+          <option value="Hershey Plain">Hershey Plain</option>
+          <option value="Hershey Duplex">Hershey Duplex</option>
+          <option value="Hershey Complex">Hershey Complex</option>
+          <option value="Hershey Triplex">Hershey Triplex</option>
+          <option value="Hershey Complex Small">Hershey Complex Small</option>
+          <option value="Hershey Script Simplex">Hershey Script Simplex</option>
+          <option value="Hershey Script Complex">Hershey Script Complex</option>
+        </select><br>
+      </div>
+      <div id="secondcolumn">
+
+        Products:
+          <input type="file" name="products" multiple style=width:239px> <br>
+        Stickers:
+            <input type="file" name="stickers" multiple style=width:239px><br>
+        Background:
+          <input type="file" name="background" multiple style=width:239px><br>
+      </div>
+      <div id="button">
+        <br><button type="submit" form="form1">DOWNLOAD</button>
+      </div>
+      </form>
+  </div>
+  <footer id="footer">
+      <div class="copyright-section">
+          <div class="content">
+             <a>Designed By: Jafurky</a>
+          </div>
+      </div>
+  </footer>
+  </div>
+  </body>
+</html>

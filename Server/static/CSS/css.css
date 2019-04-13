@@ -1,0 +1,96 @@
+body .main-title{
+    max-width: inherit;
+    height: auto; 
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    text-align: center;
+    background-color: #1abc9c;
+	min-width: 650px;
+
+}
+
+body
+{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    min-height: 100%;
+    font-family: 'arial';
+    font-size: 14pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content{
+    padding-left: 15px;
+padding-right: 15px;
+
+}
+
+
+.main-title h1
+{
+    max-width: 1050px;
+    font-family: inherit;
+    font-size: 64px !important;
+    box-sizing: inherit;
+    margin:auto;
+    padding-top:20px; 
+}
+
+.main-title .btn:hover {
+    color: #fd367e;
+    border-color: #fd367e;
+  }
+
+.main-title
+{
+    box-sizing: inherit;
+    display: block;
+    padding-top: 50px;
+}
+
+.main-title .content
+{
+    padding-top: 120px;
+    max-width: 1140px;
+    box-sizing: border-box;
+    color:white;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.main-title p{
+    padding-bottom: 50px;
+    font-family: inherit;
+    text-align: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    max-width: 900px;
+    color: white;
+}
+
+
+
+.main-title .btn{
+    box-sizing: border-box;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 25px 15px;
+        text-decoration: none;
+
+}
+
+footer .content
+{   background-color: white; 
+    color: #1abc9c;
+    font-size: 15px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
